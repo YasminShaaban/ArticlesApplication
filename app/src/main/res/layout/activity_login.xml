@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="User name:"
+         />
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.34"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        />
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.53"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="181dp"
+        android:text="Submit" />
+
+
+</LinearLayout>
